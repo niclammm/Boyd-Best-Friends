@@ -1,0 +1,21 @@
+Tanglin Police Division HQ, 1.312190, 103.846654
+79-89 Keng Lee Rd, 1.313100, 103.846470
+Keng Lee Rd, 1.313509, 103.846056
+83 Carlisle Rd, 1.314259, 103.846610
+29 Cambridge Rd, 1.313634, 103.847173
+Carlisle Rd, 1.315015, 103.847341
+Pek Kio Flood Gauge, 1.314408, 103.848054
+18-10 Carlisle Rd, 1.313595, 103.848997
+Hertford Rd, 1.312166, 103.847399
+
+Tanglin Police Division HQ,79-89 Keng Lee Rd,1
+79-89 Keng Lee Rd,Keng Lee Rd,2
+79-89 Keng Lee Rd,29 Cambridge Rd,3
+Keng Lee Rd,83 Carlisle Rd,4
+29 Cambridge Rd,83 Carlisle Rd,5
+83 Carlisle Rd,Carlisle Rd,6
+29 Cambridge Rd,Pek Kio Flood Gauge,7
+Carlisle Rd,Pek Kio Flood Gauge,8
+Pek Kio Flood Gauge,18-10 Carlisle Rd,9
+18-10 Carlisle Rd,Hertford Rd,10
+Hertford Rd,Tanglin Police Division HQ,11

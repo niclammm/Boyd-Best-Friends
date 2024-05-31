@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_87f49681de8433596a9b69a2af91c2d3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-textpath@1.2.3/leaflet.textpath.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_87f49681de8433596a9b69a2af91c2d3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_87f49681de8433596a9b69a2af91c2d3 = L.map(
+                "map_87f49681de8433596a9b69a2af91c2d3",
+                {
+                    center: [1.3135100588235296, 103.84713164705882],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 25,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_745298a7a2038d231e25ac9a9eb5de57 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_745298a7a2038d231e25ac9a9eb5de57.addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            var marker_dd0e9a68b9799d4a3a94296050ebcf1a = L.marker(
+                [1.31219, 103.846654],
+                {}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            var icon_ad988f6215fb22da0f2683c63e3b1c5f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dd0e9a68b9799d4a3a94296050ebcf1a.setIcon(icon_ad988f6215fb22da0f2683c63e3b1c5f);
+        
+    
+        var popup_6ce26d942b2da5e0e1ea5b9403523af0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc1faf70ccb2c6e44f1f3bf48df4caa9 = $(`<div id="html_fc1faf70ccb2c6e44f1f3bf48df4caa9" style="width: 100.0%; height: 100.0%;">Tanglin Police Division HQ</div>`)[0];
+                popup_6ce26d942b2da5e0e1ea5b9403523af0.setContent(html_fc1faf70ccb2c6e44f1f3bf48df4caa9);
+            
+        
+
+        marker_dd0e9a68b9799d4a3a94296050ebcf1a.bindPopup(popup_6ce26d942b2da5e0e1ea5b9403523af0)
+        ;
+
+        
+    
+    
+            var marker_fd68ae5fcc167c96095296c81d46ce7f = L.marker(
+                [1.3131, 103.84647],
+                {}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            var icon_a20128e9a305a5f2fd6773ea794a5764 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fd68ae5fcc167c96095296c81d46ce7f.setIcon(icon_a20128e9a305a5f2fd6773ea794a5764);
+        
+    
+        var popup_aefa7572f4c0e5b3c7edee5031061e8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_464fb73546d80d85466880de0e053e07 = $(`<div id="html_464fb73546d80d85466880de0e053e07" style="width: 100.0%; height: 100.0%;">79-89 Keng Lee Rd</div>`)[0];
+                popup_aefa7572f4c0e5b3c7edee5031061e8d.setContent(html_464fb73546d80d85466880de0e053e07);
+            
+        
+
+        marker_fd68ae5fcc167c96095296c81d46ce7f.bindPopup(popup_aefa7572f4c0e5b3c7edee5031061e8d)
+        ;
+
+        
+    
+    
+            var poly_line_64891da47d564bf168865367ff19f9b7 = L.polyline(
+                [[1.31219, 103.846654], [1.3131, 103.84647]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            poly_line_64891da47d564bf168865367ff19f9b7.setText(
+                "\u2192",
+                {"attributes": {"fill": "blue", "font-size": "24"}, "below": false, "center": false, "offset": 7, "orientation": 0, "repeat": true}
+            );
+        
+    
+            var marker_f5b999b3102fcceb4a304c07e3516f9a = L.marker(
+                [1.313509, 103.846056],
+                {}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            var icon_27c6af5ceb488e239584c2e059fee344 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f5b999b3102fcceb4a304c07e3516f9a.setIcon(icon_27c6af5ceb488e239584c2e059fee344);
+        
+    
+        var popup_abca754379ba09a4381b2fe7c47db17f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6e8bcd8a43bda0602feffefa8f36292 = $(`<div id="html_d6e8bcd8a43bda0602feffefa8f36292" style="width: 100.0%; height: 100.0%;">Keng Lee Rd</div>`)[0];
+                popup_abca754379ba09a4381b2fe7c47db17f.setContent(html_d6e8bcd8a43bda0602feffefa8f36292);
+            
+        
+
+        marker_f5b999b3102fcceb4a304c07e3516f9a.bindPopup(popup_abca754379ba09a4381b2fe7c47db17f)
+        ;
+
+        
+    
+    
+            var poly_line_bb83360a8241b7bc2470cac0a471db04 = L.polyline(
+                [[1.3131, 103.84647], [1.313509, 103.846056]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            poly_line_bb83360a8241b7bc2470cac0a471db04.setText(
+                "\u2192",
+                {"attributes": {"fill": "blue", "font-size": "24"}, "below": false, "center": false, "offset": 7, "orientation": 0, "repeat": true}
+            );
+        
+    
+            var marker_6747476f6481f3dedc611d00451bc64c = L.marker(
+                [1.314259, 103.84661],
+                {}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            var icon_9bd2eebb18f514ac72f348ad5b1446f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6747476f6481f3dedc611d00451bc64c.setIcon(icon_9bd2eebb18f514ac72f348ad5b1446f6);
+        
+    
+        var popup_fdfe5dfb24b6c728a80732dfc4cfa6fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_897341cf913a3a10f4b29d89bfaded27 = $(`<div id="html_897341cf913a3a10f4b29d89bfaded27" style="width: 100.0%; height: 100.0%;">83 Carlisle Rd</div>`)[0];
+                popup_fdfe5dfb24b6c728a80732dfc4cfa6fa.setContent(html_897341cf913a3a10f4b29d89bfaded27);
+            
+        
+
+        marker_6747476f6481f3dedc611d00451bc64c.bindPopup(popup_fdfe5dfb24b6c728a80732dfc4cfa6fa)
+        ;
+
+        
+    
+    
+            var poly_line_7d1efd423d787e6bdf34c1c2a92357aa = L.polyline(
+                [[1.313509, 103.846056], [1.314259, 103.84661]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            poly_line_7d1efd423d787e6bdf34c1c2a92357aa.setText(
+                "\u2192",
+                {"attributes": {"fill": "blue", "font-size": "24"}, "below": false, "center": false, "offset": 7, "orientation": 0, "repeat": true}
+            );
+        
+    
+            var marker_3a00dd592ef7b143c9178e6e7f45d38c = L.marker(
+                [1.315015, 103.847341],
+                {}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            var icon_e78a217682f855fe5c8b136e017a003a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3a00dd592ef7b143c9178e6e7f45d38c.setIcon(icon_e78a217682f855fe5c8b136e017a003a);
+        
+    
+        var popup_22c2e5842a91a19419eb7228d88e11a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b54da223e75f9b4fb739de72c703a92 = $(`<div id="html_2b54da223e75f9b4fb739de72c703a92" style="width: 100.0%; height: 100.0%;">Carlisle Rd</div>`)[0];
+                popup_22c2e5842a91a19419eb7228d88e11a6.setContent(html_2b54da223e75f9b4fb739de72c703a92);
+            
+        
+
+        marker_3a00dd592ef7b143c9178e6e7f45d38c.bindPopup(popup_22c2e5842a91a19419eb7228d88e11a6)
+        ;
+
+        
+    
+    
+            var poly_line_90a800f12ab93e92fc3f34107490830f = L.polyline(
+                [[1.314259, 103.84661], [1.315015, 103.847341]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            poly_line_90a800f12ab93e92fc3f34107490830f.setText(
+                "\u2192",
+                {"attributes": {"fill": "blue", "font-size": "24"}, "below": false, "center": false, "offset": 7, "orientation": 0, "repeat": true}
+            );
+        
+    
+            var marker_f7232ef9419d836ff09bcfd1640dd11f = L.marker(
+                [1.314259, 103.84661],
+                {}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            var icon_715f5e311be12b83e2263262150a4359 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f7232ef9419d836ff09bcfd1640dd11f.setIcon(icon_715f5e311be12b83e2263262150a4359);
+        
+    
+        var popup_8fc60ec9e23567740d1ac6ad4512bd78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a50c0e7531a5bd69fe5f8eec10e4fe5 = $(`<div id="html_2a50c0e7531a5bd69fe5f8eec10e4fe5" style="width: 100.0%; height: 100.0%;">83 Carlisle Rd</div>`)[0];
+                popup_8fc60ec9e23567740d1ac6ad4512bd78.setContent(html_2a50c0e7531a5bd69fe5f8eec10e4fe5);
+            
+        
+
+        marker_f7232ef9419d836ff09bcfd1640dd11f.bindPopup(popup_8fc60ec9e23567740d1ac6ad4512bd78)
+        ;
+
+        
+    
+    
+            var poly_line_e6cd71b7ed621cbc856775ad5cbfd3a3 = L.polyline(
+                [[1.315015, 103.847341], [1.314259, 103.84661]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            poly_line_e6cd71b7ed621cbc856775ad5cbfd3a3.setText(
+                "\u2192",
+                {"attributes": {"fill": "blue", "font-size": "24"}, "below": false, "center": false, "offset": 7, "orientation": 0, "repeat": true}
+            );
+        
+    
+            var marker_00b045ec8caf35fcecd8620d74d6edd4 = L.marker(
+                [1.313509, 103.846056],
+                {}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            var icon_286aacc6ed0c9d5c3da6c00d73e2b081 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_00b045ec8caf35fcecd8620d74d6edd4.setIcon(icon_286aacc6ed0c9d5c3da6c00d73e2b081);
+        
+    
+        var popup_e926a8a291f51917a5ecc9dca9c42296 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d76441b8a558b2f430e07f07c9ef9d3f = $(`<div id="html_d76441b8a558b2f430e07f07c9ef9d3f" style="width: 100.0%; height: 100.0%;">Keng Lee Rd</div>`)[0];
+                popup_e926a8a291f51917a5ecc9dca9c42296.setContent(html_d76441b8a558b2f430e07f07c9ef9d3f);
+            
+        
+
+        marker_00b045ec8caf35fcecd8620d74d6edd4.bindPopup(popup_e926a8a291f51917a5ecc9dca9c42296)
+        ;
+
+        
+    
+    
+            var poly_line_042b62c199fad745b94585a89c681649 = L.polyline(
+                [[1.314259, 103.84661], [1.313509, 103.846056]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            poly_line_042b62c199fad745b94585a89c681649.setText(
+                "\u2192",
+                {"attributes": {"fill": "blue", "font-size": "24"}, "below": false, "center": false, "offset": 7, "orientation": 0, "repeat": true}
+            );
+        
+    
+            var marker_852f30d025ad6edbf1c0161dbe470fc6 = L.marker(
+                [1.3131, 103.84647],
+                {}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            var icon_1503781f66f166b0606ad098602f5f26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_852f30d025ad6edbf1c0161dbe470fc6.setIcon(icon_1503781f66f166b0606ad098602f5f26);
+        
+    
+        var popup_fd3b5cb25b55abc43f0217b083bdbae6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6bc3f1842a1c4b14346309457d0fd80 = $(`<div id="html_f6bc3f1842a1c4b14346309457d0fd80" style="width: 100.0%; height: 100.0%;">79-89 Keng Lee Rd</div>`)[0];
+                popup_fd3b5cb25b55abc43f0217b083bdbae6.setContent(html_f6bc3f1842a1c4b14346309457d0fd80);
+            
+        
+
+        marker_852f30d025ad6edbf1c0161dbe470fc6.bindPopup(popup_fd3b5cb25b55abc43f0217b083bdbae6)
+        ;
+
+        
+    
+    
+            var poly_line_b7a9b819237960f1eba3d644f9344de3 = L.polyline(
+                [[1.313509, 103.846056], [1.3131, 103.84647]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            poly_line_b7a9b819237960f1eba3d644f9344de3.setText(
+                "\u2192",
+                {"attributes": {"fill": "blue", "font-size": "24"}, "below": false, "center": false, "offset": 7, "orientation": 0, "repeat": true}
+            );
+        
+    
+            var marker_8b3733b57003c65cb970cd7489779a94 = L.marker(
+                [1.313634, 103.847173],
+                {}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            var icon_0d48256942256177bdeb20cb5cc7de5f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8b3733b57003c65cb970cd7489779a94.setIcon(icon_0d48256942256177bdeb20cb5cc7de5f);
+        
+    
+        var popup_017547c5791739cf4e6320f3eb500178 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73b8ca8c75bc4197f67208267c9d4f79 = $(`<div id="html_73b8ca8c75bc4197f67208267c9d4f79" style="width: 100.0%; height: 100.0%;">29 Cambridge Rd</div>`)[0];
+                popup_017547c5791739cf4e6320f3eb500178.setContent(html_73b8ca8c75bc4197f67208267c9d4f79);
+            
+        
+
+        marker_8b3733b57003c65cb970cd7489779a94.bindPopup(popup_017547c5791739cf4e6320f3eb500178)
+        ;
+
+        
+    
+    
+            var poly_line_307b8624481f3050d737b6c2c177c46b = L.polyline(
+                [[1.3131, 103.84647], [1.313634, 103.847173]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            poly_line_307b8624481f3050d737b6c2c177c46b.setText(
+                "\u2192",
+                {"attributes": {"fill": "blue", "font-size": "24"}, "below": false, "center": false, "offset": 7, "orientation": 0, "repeat": true}
+            );
+        
+    
+            var marker_8ba683c487a342411ce647baef643a1d = L.marker(
+                [1.314408, 103.848054],
+                {}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            var icon_6f6bf43559c236c9f7f3366e8965719d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8ba683c487a342411ce647baef643a1d.setIcon(icon_6f6bf43559c236c9f7f3366e8965719d);
+        
+    
+        var popup_9cf2f9277881fa66a72d2da4efce1558 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_883f4ed81c06478ddd0c6727ada8473a = $(`<div id="html_883f4ed81c06478ddd0c6727ada8473a" style="width: 100.0%; height: 100.0%;">Pek Kio Flood Gauge</div>`)[0];
+                popup_9cf2f9277881fa66a72d2da4efce1558.setContent(html_883f4ed81c06478ddd0c6727ada8473a);
+            
+        
+
+        marker_8ba683c487a342411ce647baef643a1d.bindPopup(popup_9cf2f9277881fa66a72d2da4efce1558)
+        ;
+
+        
+    
+    
+            var poly_line_abd6832fc0940cbba1628bc3057cd3f0 = L.polyline(
+                [[1.313634, 103.847173], [1.314408, 103.848054]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            poly_line_abd6832fc0940cbba1628bc3057cd3f0.setText(
+                "\u2192",
+                {"attributes": {"fill": "blue", "font-size": "24"}, "below": false, "center": false, "offset": 7, "orientation": 0, "repeat": true}
+            );
+        
+    
+            var marker_60be50105bdfc37e146f1a4b66a18cb0 = L.marker(
+                [1.313595, 103.848997],
+                {}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            var icon_02b6c18d6bedba2d2191a405fd618af8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_60be50105bdfc37e146f1a4b66a18cb0.setIcon(icon_02b6c18d6bedba2d2191a405fd618af8);
+        
+    
+        var popup_2925c12ad1455b5e23e175a8a14e18c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f2fbb09dee40e6035eeea687a457145 = $(`<div id="html_0f2fbb09dee40e6035eeea687a457145" style="width: 100.0%; height: 100.0%;">18-10 Carlisle Rd</div>`)[0];
+                popup_2925c12ad1455b5e23e175a8a14e18c0.setContent(html_0f2fbb09dee40e6035eeea687a457145);
+            
+        
+
+        marker_60be50105bdfc37e146f1a4b66a18cb0.bindPopup(popup_2925c12ad1455b5e23e175a8a14e18c0)
+        ;
+
+        
+    
+    
+            var poly_line_a7114bce7dd1b314a0e4146230584d5e = L.polyline(
+                [[1.314408, 103.848054], [1.313595, 103.848997]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            poly_line_a7114bce7dd1b314a0e4146230584d5e.setText(
+                "\u2192",
+                {"attributes": {"fill": "blue", "font-size": "24"}, "below": false, "center": false, "offset": 7, "orientation": 0, "repeat": true}
+            );
+        
+    
+            var marker_ad2b86aba89e906a13e9e2ee0769d100 = L.marker(
+                [1.312166, 103.847399],
+                {}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            var icon_2a44ca8842e012a90b05b302d6863ddb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ad2b86aba89e906a13e9e2ee0769d100.setIcon(icon_2a44ca8842e012a90b05b302d6863ddb);
+        
+    
+        var popup_0d3bca47c24ba2dd68e08b9e7bf0b748 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_099b505537bdac1be3c2c7418f121ebb = $(`<div id="html_099b505537bdac1be3c2c7418f121ebb" style="width: 100.0%; height: 100.0%;">Hertford Rd</div>`)[0];
+                popup_0d3bca47c24ba2dd68e08b9e7bf0b748.setContent(html_099b505537bdac1be3c2c7418f121ebb);
+            
+        
+
+        marker_ad2b86aba89e906a13e9e2ee0769d100.bindPopup(popup_0d3bca47c24ba2dd68e08b9e7bf0b748)
+        ;
+
+        
+    
+    
+            var poly_line_7fa0ee65e5d0ee3ab830a7d514d324a3 = L.polyline(
+                [[1.313595, 103.848997], [1.312166, 103.847399]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            poly_line_7fa0ee65e5d0ee3ab830a7d514d324a3.setText(
+                "\u2192",
+                {"attributes": {"fill": "blue", "font-size": "24"}, "below": false, "center": false, "offset": 7, "orientation": 0, "repeat": true}
+            );
+        
+    
+            var marker_3d9c2fb7ea47d87984b3dd87b3cfaaf9 = L.marker(
+                [1.313595, 103.848997],
+                {}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            var icon_5ea621a1e5fb3db2960b581e0c36b8e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3d9c2fb7ea47d87984b3dd87b3cfaaf9.setIcon(icon_5ea621a1e5fb3db2960b581e0c36b8e8);
+        
+    
+        var popup_9895a5e16d2fb0a1f927d86472704a64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76ce7f6244093cd2a82966e8ab9e0178 = $(`<div id="html_76ce7f6244093cd2a82966e8ab9e0178" style="width: 100.0%; height: 100.0%;">18-10 Carlisle Rd</div>`)[0];
+                popup_9895a5e16d2fb0a1f927d86472704a64.setContent(html_76ce7f6244093cd2a82966e8ab9e0178);
+            
+        
+
+        marker_3d9c2fb7ea47d87984b3dd87b3cfaaf9.bindPopup(popup_9895a5e16d2fb0a1f927d86472704a64)
+        ;
+
+        
+    
+    
+            var poly_line_d4d4b7573a2e5fbc6514d2f7add26a16 = L.polyline(
+                [[1.312166, 103.847399], [1.313595, 103.848997]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            poly_line_d4d4b7573a2e5fbc6514d2f7add26a16.setText(
+                "\u2192",
+                {"attributes": {"fill": "blue", "font-size": "24"}, "below": false, "center": false, "offset": 7, "orientation": 0, "repeat": true}
+            );
+        
+    
+            var marker_31306ba65a0636d3fa5b7a2e96254f14 = L.marker(
+                [1.314408, 103.848054],
+                {}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            var icon_59df19e5e79219cef2e4cacc230d99ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_31306ba65a0636d3fa5b7a2e96254f14.setIcon(icon_59df19e5e79219cef2e4cacc230d99ff);
+        
+    
+        var popup_19813f5a1d471ca56c29050243b1eb23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a79dbfc36a205a5569dd9046d45fd71 = $(`<div id="html_2a79dbfc36a205a5569dd9046d45fd71" style="width: 100.0%; height: 100.0%;">Pek Kio Flood Gauge</div>`)[0];
+                popup_19813f5a1d471ca56c29050243b1eb23.setContent(html_2a79dbfc36a205a5569dd9046d45fd71);
+            
+        
+
+        marker_31306ba65a0636d3fa5b7a2e96254f14.bindPopup(popup_19813f5a1d471ca56c29050243b1eb23)
+        ;
+
+        
+    
+    
+            var poly_line_eb8a0031c1fe1ed7fb84e0507eae1803 = L.polyline(
+                [[1.313595, 103.848997], [1.314408, 103.848054]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            poly_line_eb8a0031c1fe1ed7fb84e0507eae1803.setText(
+                "\u2192",
+                {"attributes": {"fill": "blue", "font-size": "24"}, "below": false, "center": false, "offset": 7, "orientation": 0, "repeat": true}
+            );
+        
+    
+            var marker_01b7fa8a665d9f8ea7cf62bd20728eb2 = L.marker(
+                [1.313634, 103.847173],
+                {}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            var icon_40caf5587c114a6ca0e9962efde4dd20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_01b7fa8a665d9f8ea7cf62bd20728eb2.setIcon(icon_40caf5587c114a6ca0e9962efde4dd20);
+        
+    
+        var popup_01d70dfff79e2174dbbd9534c2d5cdee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35b9c61bbd600d24d1f0204d04cbbaf7 = $(`<div id="html_35b9c61bbd600d24d1f0204d04cbbaf7" style="width: 100.0%; height: 100.0%;">29 Cambridge Rd</div>`)[0];
+                popup_01d70dfff79e2174dbbd9534c2d5cdee.setContent(html_35b9c61bbd600d24d1f0204d04cbbaf7);
+            
+        
+
+        marker_01b7fa8a665d9f8ea7cf62bd20728eb2.bindPopup(popup_01d70dfff79e2174dbbd9534c2d5cdee)
+        ;
+
+        
+    
+    
+            var poly_line_45e02858ff1da3ad7d9fea53a84353d1 = L.polyline(
+                [[1.314408, 103.848054], [1.313634, 103.847173]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            poly_line_45e02858ff1da3ad7d9fea53a84353d1.setText(
+                "\u2192",
+                {"attributes": {"fill": "blue", "font-size": "24"}, "below": false, "center": false, "offset": 7, "orientation": 0, "repeat": true}
+            );
+        
+    
+            var marker_86552b9f8f41e703becd9f97daa8b435 = L.marker(
+                [1.3131, 103.84647],
+                {}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            var icon_30da1032d7500fdaa244a1c0f1f11388 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_86552b9f8f41e703becd9f97daa8b435.setIcon(icon_30da1032d7500fdaa244a1c0f1f11388);
+        
+    
+        var popup_a6881b5fd0dd7e6ee640ec31e311ad91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7847a63ef5a9eddfb389320dd514dcb = $(`<div id="html_a7847a63ef5a9eddfb389320dd514dcb" style="width: 100.0%; height: 100.0%;">79-89 Keng Lee Rd</div>`)[0];
+                popup_a6881b5fd0dd7e6ee640ec31e311ad91.setContent(html_a7847a63ef5a9eddfb389320dd514dcb);
+            
+        
+
+        marker_86552b9f8f41e703becd9f97daa8b435.bindPopup(popup_a6881b5fd0dd7e6ee640ec31e311ad91)
+        ;
+
+        
+    
+    
+            var poly_line_ef77f497b0a58f4ed7e6dbdfbe27d4ea = L.polyline(
+                [[1.313634, 103.847173], [1.3131, 103.84647]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            poly_line_ef77f497b0a58f4ed7e6dbdfbe27d4ea.setText(
+                "\u2192",
+                {"attributes": {"fill": "blue", "font-size": "24"}, "below": false, "center": false, "offset": 7, "orientation": 0, "repeat": true}
+            );
+        
+    
+            var marker_6644ca6ebaa0175f390284c5828a66e5 = L.marker(
+                [1.31219, 103.846654],
+                {}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            var icon_6eaefa130a241bf70928ff0e71a849e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6644ca6ebaa0175f390284c5828a66e5.setIcon(icon_6eaefa130a241bf70928ff0e71a849e2);
+        
+    
+        var popup_ae5181fb62a1c353fb4c83b3ccc72aaf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09263e29386eb2bfcb4228b44553f5ea = $(`<div id="html_09263e29386eb2bfcb4228b44553f5ea" style="width: 100.0%; height: 100.0%;">Tanglin Police Division HQ</div>`)[0];
+                popup_ae5181fb62a1c353fb4c83b3ccc72aaf.setContent(html_09263e29386eb2bfcb4228b44553f5ea);
+            
+        
+
+        marker_6644ca6ebaa0175f390284c5828a66e5.bindPopup(popup_ae5181fb62a1c353fb4c83b3ccc72aaf)
+        ;
+
+        
+    
+    
+            var poly_line_7255bd5c5d945eb2eb7d10ba5b141532 = L.polyline(
+                [[1.3131, 103.84647], [1.31219, 103.846654]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_87f49681de8433596a9b69a2af91c2d3);
+        
+    
+            poly_line_7255bd5c5d945eb2eb7d10ba5b141532.setText(
+                "\u2192",
+                {"attributes": {"fill": "blue", "font-size": "24"}, "below": false, "center": false, "offset": 7, "orientation": 0, "repeat": true}
+            );
+        
+</script>
+</html>

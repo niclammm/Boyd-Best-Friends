@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Police Patrol Route Optimiser</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url('map-background.jpg');
+            background-size: cover;
+        }
+        .banner {
+            width: 100%;
+            background-color: rgba(32, 32, 32, 0.2);
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+            font-size: 100px;
+            font-weight: bold;
+        }
+        .container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        h2 {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">Police Route Optimiser</div>
+    <div class="container">
+        <h1>Optimise your police route today!</h1>
+        <h2>A solution integrating crime hotspots with highly optimised patrol routes.</h2>
+        <label for="policeStation">Select your police station:</label>
+        <select id="policeStation">
+            <option value="station1">Tanglin Police Station</option>
+            <option value="station2">Ang Mo Kio Police Divisional HQ</option>
+            <option value="station3">Central Police Divisional HQ</option>
+            <option value="station4">Bedok Police Stations Divisional HQ</option>
+            <option value="station5">Clementi Police Divisional HQ</option>
+            <option value="station6">Jurong Police Divisional HQ</option>
+            <option value="station7">Singapore Police Force - Clementi</option>
+            <option value="station8">Airport Police</option>
+            <!-- Add more options as needed -->
+        </select>
+        <br><br>
+        <button onclick="redirectToMap()">Go to Map</button>
+    </div>
+    <script>
+        function redirectToMap() {
+            // Redirect the user to map.html
+            window.location.href = 'mymap.html';
+        }
+    </script>
+</body>
+</html>
